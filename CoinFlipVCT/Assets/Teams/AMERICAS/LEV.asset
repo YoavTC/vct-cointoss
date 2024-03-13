@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6cc24b8456a010469280dbc5470def6, type: 3}
+  m_Name: LEV
+  m_EditorClassIdentifier: 
+  teamName: "Leviat\xE1n"
+  teamLogo: {fileID: 21300000, guid: 8ec14b1b84a08b442ba6ef765bf326c7, type: 3}
+  coinLogo: {fileID: 21300000, guid: f881e63babe0cff4eb7def323caa9a24, type: 3}
+  backgroundColor: {r: 0.41176474, g: 0.67058825, b: 0.86274517, a: 1}
