@@ -114,45 +114,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1604}
+      Script: {instanceID: 1606}
     - Class: 114
-      Script: {instanceID: 2200}
+      Script: {instanceID: 2202}
     - Class: 114
-      Script: {instanceID: 2364}
+      Script: {instanceID: 2366}
     - Class: 114
-      Script: {instanceID: 2638}
+      Script: {instanceID: 2640}
     - Class: 114
-      Script: {instanceID: 2644}
+      Script: {instanceID: 2646}
     - Class: 114
-      Script: {instanceID: 2842}
+      Script: {instanceID: 2844}
     - Class: 114
-      Script: {instanceID: 3032}
+      Script: {instanceID: 3034}
     - Class: 114
-      Script: {instanceID: 3296}
+      Script: {instanceID: 3298}
     - Class: 114
-      Script: {instanceID: 3694}
+      Script: {instanceID: 3696}
     - Class: 114
-      Script: {instanceID: 3924}
+      Script: {instanceID: 3926}
     - Class: 114
-      Script: {instanceID: 4160}
+      Script: {instanceID: 4162}
     - Class: 114
-      Script: {instanceID: 4412}
+      Script: {instanceID: 4414}
     - Class: 114
-      Script: {instanceID: 4588}
+      Script: {instanceID: 4590}
     - Class: 114
-      Script: {instanceID: 5004}
+      Script: {instanceID: 5006}
     - Class: 114
-      Script: {instanceID: 5126}
+      Script: {instanceID: 5128}
     - Class: 114
-      Script: {instanceID: 5686}
+      Script: {instanceID: 5688}
     - Class: 114
-      Script: {instanceID: 5848}
+      Script: {instanceID: 5850}
     - Class: 114
-      Script: {instanceID: 6172}
+      Script: {instanceID: 6174}
     - Class: 114
-      Script: {instanceID: 6182}
+      Script: {instanceID: 6184}
     - Class: 114
-      Script: {instanceID: 7234}
+      Script: {instanceID: 7236}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -302,7 +302,7 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: caaa83557c698316fe765952573d095b
+      Hash: fbe9c2e3c5f040df499e38f97d373395
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CoinToss
@@ -1245,5 +1245,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/owner/Dropbox/My PC (i7-gamer)/Documents/GitHub/openu-homework/CoinFlipVCT/Recent
-    Builds/CoinFlipVCT.exe
+  playerPath: C:/Users/owner/Dropbox/My PC (i7-gamer)/Documents/GitHub/vct-cointoss/CoinFlipVCT/Recent
+    Builds/Win/CoinFlipVCT.exe

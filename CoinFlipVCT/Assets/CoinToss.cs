@@ -4,12 +4,12 @@ using UnityEngine.SceneManagement;
 public class CoinToss : MonoBehaviour
 {
     [SerializeField] private Transform sideA, sideB;
+    [SerializeField] private GameObject information;
     
     [SerializeField] private float launchForce, spinForce;
     private Rigidbody rb;
     public bool tossed = false;
 
-    [SerializeField] private GameObject information;
 
     void Start()
     {
@@ -30,16 +30,21 @@ public class CoinToss : MonoBehaviour
     {
         tossed = true;
         rb.useGravity = true;
+        
         rb.AddForce(Vector3.up * launchForce, ForceMode.Impulse);
         
-
         // Apply spin
-        //Vector3 spinDirection = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized;
         float spinX = GetRandomRotation();
-        float spinY = GetRandomRotation();
+        float spinY = Mathf.Min(GetRandomRotation(), 0.5f);
         float spinZ = GetRandomRotation();
+        
         Vector3 spinDirection = new Vector3(spinX, spinY, spinZ).normalized;
         rb.AddTorque(spinDirection * spinForce, ForceMode.Impulse);
+        
+        Debug.Log("XR: " + spinX);
+        Debug.Log("YR: " + spinY);
+        Debug.Log("ZR: " + spinZ);
+        Debug.Log("------------------");
     }
 
     private float GetRandomRotation()
