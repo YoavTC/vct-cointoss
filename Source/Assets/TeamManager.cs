@@ -6,32 +6,30 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TeamManager : MonoBehaviour
+public class TeamManager : Singleton<TeamManager>
 {
     [SerializeField] private CoinSide coinSideA, coinSideB;
-    [SerializeField] private TMP_Dropdown sideADropdown, sideBDropdown;
+    [SerializeField] private SideButton sideA, sideB;
+    public SideButton lastClickedButton;
 
-    [SerializeField] private List<Team> teams = new List<Team>();
-
-    private IEnumerator Start()
+    private void Start()
     {
         coinToss = GetComponent<CoinToss>();
-        
-        yield return new WaitForEndOfFrame();
-        foreach (var team in teams)
-        {
-            sideADropdown.options.Add(new TMP_Dropdown.OptionData(team.teamName, team.teamLogo));
-            sideBDropdown.options.Add(new TMP_Dropdown.OptionData(team.teamName, team.teamLogo));
-        }
-        
         ChangeCoinSide();
     }
 
+    public void SetItemToSide(Team team)
+    {
+        lastClickedButton.ChangeTeam(team);
+        SearchTab.Instance.gameObject.SetActive(false);
+        ChangeCoinSide();
+    }
+    
     [Button]
     public void ChangeCoinSide()
     {
-        coinSideA.UpdateCoinSide(teams[sideADropdown.value]);
-        coinSideB.UpdateCoinSide(teams[sideBDropdown.value]);
+        coinSideA.UpdateCoinSide(sideA.team);
+        coinSideB.UpdateCoinSide(sideB.team);
     }
     
     private CoinToss coinToss;
@@ -60,8 +58,8 @@ public class TeamManager : MonoBehaviour
     {
         if (coinSideA.transform.position.y > coinSideB.transform.position.y)
         {
-            return teams[sideADropdown.value];
+            return sideA.team;
         }
-        return teams[sideBDropdown.value];
+        return sideB.team;
     }
 }

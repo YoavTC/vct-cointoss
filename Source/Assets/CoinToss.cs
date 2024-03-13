@@ -10,6 +10,8 @@ public class CoinToss : MonoBehaviour
     private Rigidbody rb;
     public bool tossed = false;
 
+    [SerializeField] private GameObject SearchMenu;
+
 
     void Start()
     {
@@ -18,6 +20,9 @@ public class CoinToss : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape)) SearchMenu.SetActive(false);
+        if (SearchMenu.activeInHierarchy) return;
+        
         if (Input.GetKeyDown(KeyCode.F)) Toss();
         if (Input.GetKeyDown(KeyCode.R)) SceneManager.LoadScene(0);
         if (Input.GetKeyDown(KeyCode.H))

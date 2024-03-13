@@ -312,6 +312,10 @@
 "Assets/CameraScript.cs"
 "Assets/CoinSide.cs"
 "Assets/CoinToss.cs"
+"Assets/HelperFunctions.cs"
+"Assets/SearchItem.cs"
+"Assets/SearchTab.cs"
+"Assets/SideButton.cs"
 "Assets/Team.cs"
 "Assets/TeamManager.cs"
 -langversion:9.0

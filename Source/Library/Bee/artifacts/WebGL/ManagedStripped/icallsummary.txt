@@ -174,6 +174,7 @@ UnityEngine.Font::get_dynamic
 UnityEngine.Font::get_fontSize
 UnityEngine.Font::get_material
 UnityEngine.GameObject::GetComponentsInternal
+UnityEngine.GameObject::CompareTag
 UnityEngine.GameObject::get_activeInHierarchy
 UnityEngine.GameObject::get_activeSelf
 UnityEngine.GameObject::get_layer
@@ -397,6 +398,8 @@ UnityEngine.Object::set_hideFlags
 UnityEngine.Object::get_hideFlags
 UnityEngine.Object::FindObjectFromInstanceID
 UnityEngine.Object::Internal_CloneSingle
+UnityEngine.Object::Internal_CloneSingleWithParent
+UnityEngine.Object::FindObjectsOfType
 UnityEngine.ObjectGUIState::Internal_Create
 UnityEngine.ObjectGUIState::Internal_Destroy
 UnityEngine.Physics::get_invokeCollisionCallbacks
@@ -426,6 +429,7 @@ UnityEngine.QualitySettings::get_activeColorSpace
 UnityEngine.Quaternion::AngleAxis_Injected
 UnityEngine.Quaternion::Internal_FromEulerRad_Injected
 UnityEngine.Quaternion::Inverse_Injected
+UnityEngine.Random::RandomRangeInt
 UnityEngine.Random::Range
 UnityEngine.RectOffset::get_bottom
 UnityEngine.RectOffset::get_horizontal
@@ -616,6 +620,7 @@ UnityEngine.Transform::set_hasChanged
 UnityEngine.Transform::set_localPosition_Injected
 UnityEngine.Transform::set_localRotation_Injected
 UnityEngine.Transform::set_localScale_Injected
+UnityEngine.Transform::set_position_Injected
 UnityEngine.Transform::GetChild
 UnityEngine.Transform::GetParent
 UnityEngine.U2D.SpriteAtlas::CanBindTo
