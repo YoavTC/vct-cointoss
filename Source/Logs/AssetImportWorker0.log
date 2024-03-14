@@ -1,0 +1,563 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 24438 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/owner/Dropbox/My PC (i7-gamer)/Documents/GitHub/vct-cointoss/Source
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51043
+Successfully changed project path to: C:/Users/owner/Dropbox/My PC (i7-gamer)/Documents/GitHub/vct-cointoss/Source
+C:/Users/owner/Dropbox/My PC (i7-gamer)/Documents/GitHub/vct-cointoss/Source
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7216] Host "[IP] 192.168.1.25 [Port] 0 [Flags] 2 [Guid] 2986552130 [EditorId] 2986552130 [Version] 1048832 [Id] WindowsEditor(7,i7-gamer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7216] Host "[IP] 192.168.1.25 [Port] 0 [Flags] 2 [Guid] 2986552130 [EditorId] 2986552130 [Version] 1048832 [Id] WindowsEditor(7,i7-gamer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 10.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/owner/Dropbox/My PC (i7-gamer)/Documents/GitHub/vct-cointoss/Source/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5981 MB
+    Driver:   31.0.15.4601
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011975 seconds.
+- Loaded All Assemblies, in  0.458 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.329 seconds
+Domain Reload Profiling: 785ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (198ms)
+		LoadAssemblies (130ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (194ms)
+				TypeCache.ScanAssembly (171ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (330ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (259ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.896 seconds
+Refreshing native plugins compatible for Editor in 5.87 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.706 seconds
+Domain Reload Profiling: 1598ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (580ms)
+		LoadAssemblies (430ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (233ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (706ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (505ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3224 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3687.
+Memory consumption went from 128.7 MB to 128.7 MB.
+Total: 4.236800 ms (FindLiveObjects: 0.272300 ms CreateObjectMapping: 0.289100 ms MarkObjects: 3.512900 ms  DeleteObjects: 0.160200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1981.404266 seconds.
+  path: Assets/Team Coin Sprites/E_Karmine Corp.png
+  artifactKey: Guid(03a1df784a79db74595884ba0de13989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Coin Sprites/E_Karmine Corp.png using Guid(03a1df784a79db74595884ba0de13989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128b094af5ae89ebd18bd3ae2ddb89eb') in 0.108380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Team Sprites/A_100 Thieves.png
+  artifactKey: Guid(21822b9dd4f74394bb3ef50cfc1050ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Sprites/A_100 Thieves.png using Guid(21822b9dd4f74394bb3ef50cfc1050ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666b0dd13a7a8c9d76363f9c33af9f28') in 0.022700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Team Coin Sprites/C_Bilibili Gaming.png
+  artifactKey: Guid(e6033188b2d06b64487ad9ac920bcfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Coin Sprites/C_Bilibili Gaming.png using Guid(e6033188b2d06b64487ad9ac920bcfc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7be7cdd35fe228732b21474b6f80f05') in 0.021537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Team Sprites/C_Dragon Ranger Gaming.png
+  artifactKey: Guid(5c002652d6ab11f459c60f6fc69ef18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Sprites/C_Dragon Ranger Gaming.png using Guid(5c002652d6ab11f459c60f6fc69ef18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfa7f45924de913ecd40b9ac7561dde') in 0.022704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Team Sprites/A_LOUD.png
+  artifactKey: Guid(3087a13b199da17489cf3306ec8c08f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Sprites/A_LOUD.png using Guid(3087a13b199da17489cf3306ec8c08f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea910edbfe1ffc1e41fa41c997a7e13') in 0.021901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Team Coin Sprites/A_FURIA.png
+  artifactKey: Guid(cdc98f7591257c64db151964d8cebf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Coin Sprites/A_FURIA.png using Guid(cdc98f7591257c64db151964d8cebf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddddb0225fe7c3e570c25ceefe7b580f') in 0.025075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Team Sprites/A_G2 Esports.png
+  artifactKey: Guid(d4bbaeee918bb364d85217347d615923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Sprites/A_G2 Esports.png using Guid(d4bbaeee918bb364d85217347d615923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15cd15e2db28277f766542139ea5091') in 0.021274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Team Sprites/E_Karmine Corp.png
+  artifactKey: Guid(27e722fe55df3874e9d4c2c40685fa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Sprites/E_Karmine Corp.png using Guid(27e722fe55df3874e9d4c2c40685fa24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53ac804f953a5dfc97aa7e26bfa9081') in 0.019919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Team Sprites/E_Movistar KOI.png
+  artifactKey: Guid(a239488a17cfb14468d98e5826aaa90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Sprites/E_Movistar KOI.png using Guid(a239488a17cfb14468d98e5826aaa90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df57f4b23e8d1591e8fa73bd3488da1') in 0.022203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Team Sprites/C_EDward Gaming.png
+  artifactKey: Guid(1dc98975553ac4b48a2eeddffeb3978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Sprites/C_EDward Gaming.png using Guid(1dc98975553ac4b48a2eeddffeb3978c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fbd5e7d6a45ef85935bd84febb9300') in 0.024722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Team Sprites/A_Evil Geniuses.png
+  artifactKey: Guid(c98db0c3bb6fe354dbc7704355fe4aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Sprites/A_Evil Geniuses.png using Guid(c98db0c3bb6fe354dbc7704355fe4aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313fb4bf891dba3155d39fcea7847a32') in 0.019616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3694.
+Memory consumption went from 79.4 MB to 79.4 MB.
+Total: 6.015100 ms (FindLiveObjects: 0.327300 ms CreateObjectMapping: 0.319700 ms MarkObjects: 5.323000 ms  DeleteObjects: 0.043600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 52.767245 seconds.
+  path: Assets/Team Coin Sprites/C_Wolves Esports.png
+  artifactKey: Guid(7ce99f312ac94c143b8480b724ba6052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Coin Sprites/C_Wolves Esports.png using Guid(7ce99f312ac94c143b8480b724ba6052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5834d2d43792e88434264505d84e7f50') in 0.026756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Team Coin Sprites/E_Natus Vincere.png
+  artifactKey: Guid(e3b469b84d935a44ba0a0f4ab306f1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Coin Sprites/E_Natus Vincere.png using Guid(e3b469b84d935a44ba0a0f4ab306f1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd07cf9da57d77292c94703175865d81') in 0.024267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Team Coin Sprites/E_BBL Esports.png
+  artifactKey: Guid(9a5c2dc3ff8d70349a95eb874f3d3436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Coin Sprites/E_BBL Esports.png using Guid(9a5c2dc3ff8d70349a95eb874f3d3436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a99034521bcf6db3b4133729675c321') in 0.023296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Team Sprites/E_BBL Esports.png
+  artifactKey: Guid(3251993ca3bbaa542bae59269f33f366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Sprites/E_BBL Esports.png using Guid(3251993ca3bbaa542bae59269f33f366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60357d510b94af3e9534279c78ca86fc') in 0.021456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Team Sprites/E_FNATIC.png
+  artifactKey: Guid(03b0af93565ead4409f44febf476911e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Sprites/E_FNATIC.png using Guid(03b0af93565ead4409f44febf476911e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24f9940f4a4bccf3c3bb890b0ad7eda') in 0.021547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Team Sprites/E_Gentle Mates.png
+  artifactKey: Guid(b014e3b89d04ad6408389c986ada770d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Sprites/E_Gentle Mates.png using Guid(b014e3b89d04ad6408389c986ada770d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5051d1ede012c08565976381cf38b4') in 0.024107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Team Coin Sprites/P_DetonatioN FocusMe.png
+  artifactKey: Guid(074079ae25002c94b986ad426cb7e5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Coin Sprites/P_DetonatioN FocusMe.png using Guid(074079ae25002c94b986ad426cb7e5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b8d8f38d7583e841a0bbe49ad4e5b2') in 0.024224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Team Coin Sprites/E_FNATIC.png
+  artifactKey: Guid(89e2839de4c531e49b64033789230cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Coin Sprites/E_FNATIC.png using Guid(89e2839de4c531e49b64033789230cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9641e8c0251dcfc03ff6a0c03fe65d7') in 0.022171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Team Coin Sprites/P_BLEED.png
+  artifactKey: Guid(b214037e611f15c4aa03feac56eb1728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Coin Sprites/P_BLEED.png using Guid(b214037e611f15c4aa03feac56eb1728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a065ce7b2480c1a3011985f559381193') in 0.019605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3694.
+Memory consumption went from 79.5 MB to 79.5 MB.
+Total: 4.104500 ms (FindLiveObjects: 0.304200 ms CreateObjectMapping: 0.234500 ms MarkObjects: 3.548000 ms  DeleteObjects: 0.016900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30.151868 seconds.
+  path: Assets/Team Coin Sprites/C_Titan Esports Club.png
+  artifactKey: Guid(be471ac6f88aa1446b2c1e2f128a04c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Coin Sprites/C_Titan Esports Club.png using Guid(be471ac6f88aa1446b2c1e2f128a04c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a89e08aa75f0769d8139d95c7d84b9') in 0.026096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Team Sprites/C_Trace Esports.png
+  artifactKey: Guid(0a93b53698dbba748abed5c146d47e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Team Sprites/C_Trace Esports.png using Guid(0a93b53698dbba748abed5c146d47e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e622313839b89a61839f7fb9e10c1f50') in 0.024811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3694.
+Memory consumption went from 79.5 MB to 79.5 MB.
+Total: 6.592400 ms (FindLiveObjects: 0.407500 ms CreateObjectMapping: 0.612500 ms MarkObjects: 5.540800 ms  DeleteObjects: 0.030400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3694.
+Memory consumption went from 79.7 MB to 79.7 MB.
+Total: 5.758500 ms (FindLiveObjects: 0.455200 ms CreateObjectMapping: 0.352800 ms MarkObjects: 4.912400 ms  DeleteObjects: 0.036000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 3694.
+Memory consumption went from 79.7 MB to 79.7 MB.
+Total: 3.444900 ms (FindLiveObjects: 0.232300 ms CreateObjectMapping: 0.179700 ms MarkObjects: 3.009700 ms  DeleteObjects: 0.022100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.608 seconds
+Refreshing native plugins compatible for Editor in 3.64 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.034 seconds
+Domain Reload Profiling: 1637ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (314ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (90ms)
+				TypeCache.ScanAssembly (76ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1035ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (406ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (288ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3204 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3696.
+Memory consumption went from 131.1 MB to 131.1 MB.
+Total: 2.501100 ms (FindLiveObjects: 0.233800 ms CreateObjectMapping: 0.175100 ms MarkObjects: 2.052900 ms  DeleteObjects: 0.038500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3696.
+Memory consumption went from 81.6 MB to 81.6 MB.
+Total: 3.788200 ms (FindLiveObjects: 0.280400 ms CreateObjectMapping: 0.249000 ms MarkObjects: 3.229500 ms  DeleteObjects: 0.028300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

@@ -2606,6 +2606,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1067045586720154586, guid: 6cfc85831347c15438eee529639872d4, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1685499092801978850, guid: 6cfc85831347c15438eee529639872d4, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.06
@@ -2622,6 +2626,14 @@ PrefabInstance:
       propertyPath: team
       value: 
       objectReference: {fileID: 11400000, guid: f2bd397722c9716468281fb800451fe0, type: 2}
+    - target: {fileID: 2267149862531950934, guid: 6cfc85831347c15438eee529639872d4, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2267149862531950934, guid: 6cfc85831347c15438eee529639872d4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 03a1df784a79db74595884ba0de13989, type: 3}
     - target: {fileID: 2760705801307977871, guid: 6cfc85831347c15438eee529639872d4, type: 3}
       propertyPath: m_Name
       value: coin
